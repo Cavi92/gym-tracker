@@ -26,8 +26,9 @@
       "favicon": "./assets/favicon.png"
     },
     "experiments": {
-      "baseUrl": "/gym-tracker"
+      "baseUrl": "/gym-tracker",
+      "typedRoutes": true
     },
-    "plugins": ["expo-status-bar", "expo-router"]
+    "plugins": ["expo-status-bar", "expo-router", "expo-splash-screen"]
   }
 }
