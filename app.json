@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "GymTracker",
+    "slug": "gym-tracker",
+    "version": "1.0.0",
+    "scheme": "gymtracker",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cavi92.gymtracker"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "backgroundColor": "#E6F4FE"
+      },
+      "package": "com.cavi92.gymtracker"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/favicon.png"
+    },
+    "experiments": {
+      "baseUrl": "/gym-tracker"
+    },
+    "plugins": ["expo-status-bar", "expo-router"]
+  }
+}
